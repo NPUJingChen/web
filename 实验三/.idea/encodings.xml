@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/lesson/j2ee/ex3/CounterTag.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/lesson/j2ee/ex3/CreateSelectTag.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/lesson/j2ee/ex3/ShoppingCart.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/lesson/j2ee/ex3/ShowDarkBeer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/lesson/j2ee/ex3/StatisticInfo.java" charset="UTF-8" />
+  </component>
+</project>

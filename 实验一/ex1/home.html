@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First webpage</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="sweetalert/sweetalert.css" rel="stylesheet" type="text/css">
+    <script src="jquery.slim.min.js"></script>
+    <script src="script.js"></script>
+    <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="sweetalert/sweetalert-dev.js"></script>
+    <body>
+    <div class="container" style="background-color: #c7ddef">
+        <div class="intro" role="alert">
+            <img src="images/头像.jpg" width="200px" height="200px" alt="avatar" />
+            <h1>陈靖</h1>
+            <h3>西北工业大学</h3>
+            <p>现就读于软件学院，是一名大三学生。</p>
+        </div>
+        <div class="about-grid" role="alert">
+            <div class="i-am">
+                <h3>我是</h3>
+                <ul class="about-list">
+                    <li>一名学生</li>
+                    <li>一名读书爱好者</li>
+                    <li>一个业余厨子</li>
+                </ul>
+            </div>
+            <div class="i-like">
+                <h3>我喜欢</h3>
+                <ol class="about-list">
+                    <li>交朋友</li>
+                    <li>打篮球</li>
+                    <li>吃美食</li>
+                    <li>旅游</li>
+                    <li>读书</li>
+                </ol>
+            </div>
+        </div>
+        <div>
+            <h3 class="projects-heading">我的项目</h3>
+            <div class="projects-grid" role="alert">
+            <img class="img-responsive" src="images/项目一.jpg" />
+            <img class="img-responsive" src="images/项目二.jpg"/>
+            <img class="img-responsive" src="images/项目三.jpg"/>
+            <img class="img-responsive" src="images/项目四.jpg"/>
+            </div>
+        </div>
+        <div class="links-and-contact" role="alert">
+            <div class="links">
+                <h3>Links</h3>
+                <ul class="links-list">
+                    <li>
+                        <a href="https://github.com/">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <form action="#">
+                    <!--<label for="email">
+                        邮箱: <input type="email" id="email" placeholder="输入你的邮箱地址" />
+                    </label>
+                    <label for="message">
+                        留言: <textarea id="message">你的留言</textarea>
+                    </label>-->
+                    <!--<input id="submit-button" type="submit" valid="Send Message" class="text-success"/>-->
+                    <!--<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">开始演示模态框
+                </button>-->
+                    <!-- 模态框（Modal） -->
+                    <!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                          aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">模态框（Modal）标题</h4>
+                                </div>
+                                <div class="modal-body">在这里添加一些文本</div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                                    <button type="button" class="btn btn-primary">提交更改</button>
+                                </div>
+                            </div>--><!-- /.modal-content -->
+                        <!--</div>--><!-- /.modal -->
+                    <!--</div>-->
+                    <br>
+                    <br>
+                    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"
+                            style="float:right">点击这里给我留言
+                    </button>
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLbabel"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="mod0al-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title" id="myModalLabel">你的留言</h4>
+                            </div>
+                            <div class="modal-body">
+                                <label for="email">
+                                    邮箱: <input type="email" id="email" placeholder="输入你的邮箱地址" />
+                                </label>
+                                <label for="message">
+                                    留言: <textarea id="message">你的留言</textarea>
+                                </label>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                                <button type="button" id="submit-button" type="submit" valid="Send Message"
+                                        class="text-success">提交你的留言</button>
+                            </div>
+                        </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>First Servlet</servlet-name>
+        <servlet-class>lesson.j2ee.ex2_1.FirstServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>First Servlet</servlet-name>
+        <url-pattern>/Serv1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Select Beer Servlet</servlet-name>
+        <servlet-class>lesson.j2ee.ex2_1.SelectBeerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Select Beer Servlet</servlet-name>
+        <url-pattern>/SelectBeer.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Code Return</servlet-name>
+        <servlet-class>lesson.j2ee.ex2_1.CodeReturn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Code Return</servlet-name>
+        <url-pattern>/CodeReturn.jar</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>BeerParamTests</servlet-name>
+        <servlet-class>lesson.j2ee.ex2_1.TestInitParams</servlet-class>
+        <init-param>
+            <param-name>adminEmail</param-name>
+            <param-value>likewecare@wickedlysmart.com</param-value>
+        </init-param>
+        <init-param>
+            <param-name>mainEmail</param-name>
+            <param-value>blooper@wickedlysmart.com</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BeerParamTests</servlet-name>
+        <url-pattern>/Tester.do</url-pattern>
+    </servlet-mapping>
+    <context-param>
+        <param-name>adminEmail</param-name>
+        <param-value>clientheaderror@wickedlysmart.com</param-value>
+    </context-param>
+</web-app>
